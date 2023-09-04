@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>School Of</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">School of Health Information Management</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat nisi eum consequuntur aspernatur voluptatum veniam magnam quos numquam est modi? Asperiores, nobis officia ut eligendi illo quia esse repellendus eveniet optio recusandae rem, deleniti magnam molestiae porro odit necessitatibus adipisci.</p>
+        
+      </div>
+    </div>
+  </div>
+
+    <div class="container my-5">
+                
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#about-school" type="button" role="tab" aria-controls="nav-home" aria-selected="true">About the Schools</button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#requirements" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Admission Requirements</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#school-fees" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">School Fees</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#apply" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Apply For Admission</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="about-school" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                  <h2 class="mt-5">About the School</h2>
+                  <p class="text-body-secondary w-75 mt-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus cum fugiat deserunt facere porro rerum repellat aperiam praesentium sapiente suscipit pariatur, dolorum nihil facilis quibusdam ipsa, ducimus nobis obcaecati mollitia. Quidem corrupti facere quia aliquid omnis deserunt! Reprehenderit, reiciendis! Quaerat eum iste dicta eligendi laudantium, quibusdam a fuga quasi mollitia?</p>
+                </div>
+
+                <div class="tab-pane fade" id="requirements" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                  <h2 class="mt-5">Admission Requirements</h2>
+                  <h4>O - Level Requirements:</h4>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">English Language</li>
+                    <li class="list-group-item">Mathematics</li>
+                    <li class="list-group-item">Physics</li>
+                    <li class="list-group-item">Chemistry</li>
+                    <li class="list-group-item">Biology</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="school-fees" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                  <h2 class="mt-5">School Fees</h2>
+                  <p class="text-body-secondary w-75 mt-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus cum fugiat deserunt facere porro rerum repellat aperiam praesentium sapiente suscipit pariatur, dolorum nihil facilis quibusdam ipsa, ducimus nobis obcaecati mollitia. Quidem corrupti facere quia aliquid omnis deserunt! Reprehenderit, reiciendis! Quaerat eum iste dicta eligendi laudantium, quibusdam a fuga quasi mollitia?</p>
+                </div>
+                <div class="tab-pane fade" id="apply" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                  <h2 class="mt-5">Apply</h2>
+                  <p class="text-body-secondary w-75 mt-3 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus cum fugiat deserunt facere porro rerum repellat aperiam praesentium sapiente suscipit pariatur, dolorum nihil facilis quibusdam ipsa, ducimus nobis obcaecati mollitia. Quidem corrupti facere quia aliquid omnis deserunt! Reprehenderit, reiciendis! Quaerat eum iste dicta eligendi laudantium, quibusdam a fuga quasi mollitia?</p>
+                  <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal" data-bs-target="#application-open" >Apply Now</button>
+                  <!-- <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal" data-bs-target="#application-close" >Apply Now</button> -->
+                </div>
+
+                <!-- Modal For Open application -->
+                <div class="modal fade" id="application-open" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Application Form</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        
+                        <form method="post" action="">
+                          <div class="row mb-3">
+                            <label for="name" class="col-sm-2 col-form-label">Name</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="name">
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="phone" class="col-sm-2 col-form-label">Phone</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="phone">
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                          </div>
+                                                 
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                          </div>
+
+                        </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>        
+
+
+                <!-- Modal For Close application -->
+                <div class="modal fade" id="application-close" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Application Form</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Application for Admission is closed</p>
+                                                 
+                          
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>        
+
+              
+    </div>
+
+    <div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <p class="text-body-secondary">© 2023</p>
+      </div>
+
+      <div class="col mb-3">
+
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+    </footer>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

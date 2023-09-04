@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuwara Portfolio</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+	<link rel="icon" type="image/x-icon" href="images/my-fav.png">
+</head>
+<body>
+	<header>
+		<nav class="navbar" id="home">
+			<div class="container">
+				<ul>	
+					<li id="logo"><a href="index.html"><img src="images/my-fav.png"></a></li>
+					<li class="toggler"><a href="#">&#9776;</a></li>
+					<li class="navbar-list"><a href="index">Home</a></li>
+					<li class="navbar-list"><a href="#about-section">About</a></li>
+					<li class="navbar-list"><a href="#skills">Skills</a></li>
+					<li class="navbar-list"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<hr>
+		
+		<section id="hero">
+			<div class="container">
+				<h1>I am Muhammad Idris</h1>
+				<p class="hero-p">
+					A full stack web developer who like to be building projects and always eager to learn new skills. I am looking forward for my next projects that will allow me to boost my existing skills to a higher level so as to grow as a Web Developer.
+				</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+		</section>
+
+	</header>
+	
+	<main>
+		<section id="about-section">
+			<div class="container">
+				<div class="about-image">
+					<img src="./images/about.jpg">
+				</div>
+			
+				<div class="about-content">
+					<h2>About Me</h2>
+					<p>
+						I am a self-taught developer who enrolled into an online Full Stack Web Development Bootcamp in udemy as a starting point where I gained a lot of knowledge from the Bootcamp and basically I got the curriculum to follow in order to further my skills in the field. Then I continue developing my skills from online contents, youtube videos and other documentations by learning and building small projects before merging them together to make a big project.
+					</p>
+				</div>
+			</div>
+		</section>
+		
+		<section id="skills">
+			<div class="container">
+				<h2>Skills</h2>
+				<p>Some Techologies that I use:</p>
+				<div class="skill-list">
+					<img src="./images/html5.png">
+					<img src="./images/css3.png">
+					<img src="./images/javascript.png">
+					<img src="./images/bootstrap.png">
+					<img src="./images/jquery.png">
+					<img src="./images/wordpress-blue.png">
+					<img src="./images/nodejs.png">
+					<img src="./images/npm.png">
+				</div>
+			</div>
+		</section>
+		
+		<section id="projects">
+			<div class="container">
+				<h2>Projects</h2>
+				<p><a href="./schools-project/index.html" target="_blank">ongoing project</a></p>
+			</div>
+		</section>
+		
+		<section id="contact">
+			<div class="container">
+				<h2>Get In Touch</h2>
+				<div class="contact-details">
+					<div class="contact-form">
+						<h3>Message Me</h3>
+						<form method="post" action="mailto:muhdidris06@gmail.com" enctype="text/plain"> 
+							<div class="form-input">
+								<input type="text" name="name" placeholder="Enter youre name">
+							</div>
+							<div class="form-input">
+								<input type="text" name="email" placeholder="Enter youre email">
+							</div>
+							<div class="form-input">
+								<input type="text" name="subject" placeholder="Enter youre subject">
+							</div>
+							<div class="form-input">
+								<textarea name="message" rows="10" columns="20" placeholder="type in your text"></textarea>
+							</div>
+							<button type="submit">Send</button>
+						</form>
+					</div>
+					
+					<div class="contact-address">
+						<h3>Make a Call</h3>
+						<p><i class="bi bi-telephone-fill"></i> called me: +2347065056201</p>
+						<p><i class="bi bi-envelope-fill"></i> Mail me: muhdidris06@gmail.com</p>
+						<p><i class="bi bi-geo-alt-fill"></i> Visit me: Ngomari Cstaine Behind UMTH</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+    
+    <footer class="footer">
+		<div class="container">
+			<p class="social-icons">
+				<span><a href=""><i class="bi bi-twitter"></a></i></span> |
+				<span><a href=""><i class="bi bi-github"></i></a></span> |
+				<span><a href=""><i class="bi bi-linkedin"></i></a></span> |
+				<span><a href=""><i class="bi bi-facebook"></i></a></span> |
+				<span><a href=""><i class="bi bi-instagram"></i></a></span>
+			</p>
+			<p>
+				Copyright &copy; <span id="year"></span> Nuwara Website
+			</p>
+			
+			<span> <a href="#home"> top </a> </span>
+		</div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
